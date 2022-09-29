@@ -1,0 +1,11 @@
+<script>
+    const repeticao = Number(prompt("quantos nomes voce deseja inserir"))
+
+let nomes = [];
+
+for( let contador = 1; contador <= repeticao; contador++){
+nomes.push(prompt(`nome ${contador}:`))
+}
+nomes.sort();
+document.write(`os nomes sao ${nomes.join(', ')}`)
+</script>

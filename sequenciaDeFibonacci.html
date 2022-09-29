@@ -1,0 +1,12 @@
+<script>
+const sequencia = parseInt(prompt("quantas quantos numeros da sequencia de fibonacci voce quer visualizar"))
+
+let fibonacci = [0, 1]
+for (let contador = 2; contador < sequencia; contador++){
+fibonacci.push(fibonacci[contador - 2] + fibonacci[contador -1])
+
+}
+
+document.write(`${fibonacci}`)
+
+</script>

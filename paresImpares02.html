@@ -1,0 +1,23 @@
+<script>
+    let listaDeNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    let numerosPares = [];
+
+    let numerosImpares = [];
+
+    for (let numero of listaDeNumeros) {
+
+        if (numero % 2 === 0) {
+            numerosPares.push(numero)
+
+        } else {
+            numerosImpares.push(numero);
+        }
+    }
+    document.write(` os numeros pares : ${numerosPares.join(", 0")}.<br>
+os numeros impares sao: ${numerosImpares.join(", ")}.`);
+
+
+
+
+</script>
